@@ -1,0 +1,40 @@
+/* This is the main CSS for the application */
+
+body {
+    font-family: sans-serif;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-container > div {
+    padding: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+    width: 300px;
+}
+
+#data-container {
+    display: flex;
+    gap: 20px;
+}
+
+#btn-container {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
